@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>course registration form</title>
+    <link rel="icon" href="1.jpeg">
+    <link rel="stylesheet" href="styleef.css">
+    <meta name="keywords" content="amazon,aomxonindia">
+</head>
+
+
+<body>
+    <h1>Course Registartion Form</h1>
+    <form action="https://thetapacademy.com/" autocomplete="on" autocapitalize="on">
+        <fieldset>
+            <legend>Personal details</legend>
+            <table>
+                <tr>
+                    <td><label for="">First name</label></td>
+                    <td><input type="text" required placeholder="eg:Anuradha" name="first_name"
+                            maxlength="15"><span>Enter your frist name</span></td>
+
+                </tr>
+                <tr>
+                    <td><label for="">Surname</label></td>
+                    <td><input type="text" placeholder="M" name="last_name" optional><span>Enter your last name</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Mobile Number</label></td>
+                    <td><input type="tel" name="mobile_no" required placeholder="7895727896" maxlength="10"
+                            minlength="10"><span>Enter your mobile_no</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" name="email" id="" required placeholder="abc@gmail.com"><span>Enter your
+                            email</span>
+                            <img id="valid" src="image.png" alt="not found">
+                            <img id="invalid" src="we.png" alt="not found">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" name="password" id="" required minlength="5" maxlength="8"
+                            placeholder="min 5 charecters"><span>Enter your password</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">Confirm Password</label></td>
+                    <td><input type="password" name="cpassword" id="" required minlength="5" maxlength="8"
+                            placeholder="min 5 charecters"><span>please confirm password</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">DOB</label></td>
+                    <td><input type="date" name="dob" id="" required><span>Enter your Date of birth</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">Age</label></td>
+                    <td><input type="number" required min="17" max="100" step="1"><span>Enter your Age</span></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td>
+                        <input type="radio" name="Gender" id="" value="M" required><label for="">Male</label>
+                        <input type="radio" name="Gender" id="" value="F"><label for="">Fmale</label>
+                        <input type="radio" name="Gender" id="" value="O"><label for="">Others</label>
+                        <span>select your Gender</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Select country</label></td>
+                    <td><select name="country" id="">
+                            <option value="INDIA">INDIA</option>
+                            <option value="SWISS">SWISS</option>
+                            <option value="US">US</option>
+                        </select>
+                        <span>Enter your country</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Upload Picture</label></td>
+                    <td><input type="file" name="Picture" id="" optional><span>upload passport size photo</span></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" name="" id=""></td>
+                </tr>
+
+            </table>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Course details</legend>
+            <label for="">Select course</label><br>
+            <select name="" id="">
+                <option value="">Python full stack</option>
+                <option value="">Java full stack</option>
+            </select><br>
+            <label for="">Delivery mode</label>
+            <input type="checkbox" name="" id="">online
+            <input type="checkbox" name="" id="">offline
+            <br>
+            <tr>
+                <td><label for="">INSTITUTE NAME: </label></td>
+                <td><input type="text" readonly value="TAP ACADEMY"></td>
+            </tr>
+            <br>
+            <label for="">Comments</label><br>
+            <textarea name="" id="" rows="5" cols="18"></textarea><br>
+            <button id="bu"><a href="Anuradha_M_CVi.pdf" download="">click here ro download the
+                    resume</a></button>
+        </fieldset>
+        <input type="submit" name="" id="">
+
+    </form>
+</body>
+
+</html>
